@@ -1,0 +1,23 @@
+{
+  "name": "rmotor/rmotor",
+  "description": "description",
+  "type": "package",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Deev",
+      "email": "alexander@deev.me",
+      "homepage": "https://deev.me"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "RMotor\\": "src/"
+    }
+  },
+  "require": {
+    "php": "~8.0",
+    "psr/container": "*"
+  }
+}
